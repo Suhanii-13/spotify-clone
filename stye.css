@@ -367,3 +367,55 @@ class-hide */
     margin-top: -6px;
 }
 
+/*Footer*/
+
+.footer-main
+{
+    height: 50rem;
+    display: flex;
+}
+
+.footer-1
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.box-5 button
+{
+    background-color: #312f2f;
+    color: white;
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    border: 1px solid rgb(154, 145, 145);
+    margin-left:1rem;
+}
+
+.box-5
+{
+    margin-left: 6rem;
+}
+
+.box-5 button:hover
+{
+    background-color: #575454;
+}
+.footer-1 div{
+    height: 10rem;
+    width: 18rem;
+}
+
+.footer-1 div p {
+   color: #7f7a7a;
+}
+
+.footer-1 div p:hover {
+    color: white;
+    text-decoration: underline;
+ }
+
+.footer-1 div p.bold {
+    color: white;
+}
