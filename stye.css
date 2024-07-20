@@ -371,8 +371,9 @@ class-hide */
 
 .footer-main
 {
-    height: 50rem;
+    height: 30rem;
     display: flex;
+    flex-direction: column;
 }
 
 .footer-1
@@ -419,3 +420,30 @@ class-hide */
 .footer-1 div p.bold {
     color: white;
 }
+
+
+
+.footer-2 
+{
+    margin-top: 7rem;
+}
+
+.footer-2 span{
+    margin-left: 1rem;
+    font-size:small;
+    color:#7f7a7a;
+}
+
+.footer-2 span:hover
+{
+    color: white;
+}
+
+.f2P
+{
+    margin-left: 80rem;
+    margin-top: -0.9rem;
+    font-size: small;
+    color:#7f7a7a;
+}
+
