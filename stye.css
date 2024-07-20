@@ -23,8 +23,7 @@ body{
     /* if we scrol then it will show scroll bar */
     overflow:auto;
     color: white;
-    padding: 0 1.5rem 0 1.5rem;
-
+    padding:0 1.5rem 0 1.5rem;
 }
 
 .sidebar{
@@ -166,9 +165,43 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0 1rem 0;
-    z-index: 5;
+    z-index: 5
 }
 
+.sticky-nav-2
+{
+    position: sticky;
+    top:2.5rem;
+    background-color: #121212;
+    height: 2.5rem;
+    display: flex;
+    z-index: 8;
+    padding: 0 0 1rem 0;
+
+}
+
+
+.podBtn, .allBtn ,.musicBtn
+{
+    border-radius: 5rem;
+    width: 4rem;
+    background-color: #545252;
+    color: white;
+    border: 1.5px solid black;
+    margin-left: 0.5rem;
+}
+
+
+.podBtn
+{
+    width: 6rem;
+}
+
+.podBtn:hover, .allBtn:hover ,.musicBtn:hover
+{
+    background-color: white;
+    color: black;
+}
 .sticky-nav-icons
 {
    margin-left: 0.75rem; 
