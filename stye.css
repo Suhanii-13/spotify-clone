@@ -162,22 +162,26 @@ a{
     top:0;
     background-color: #121212;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
     padding: 1rem 0 1rem 0;
     z-index: 5
 }
 
+.sticky-nav-1
+{
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
 .sticky-nav-2
 {
-    position: sticky;
-    top:2.5rem;
+    top:3rem;
     background-color: #121212;
     height: 2.5rem;
     display: flex;
-    z-index: 8;
-    padding: 0 0 1rem 0;
-
 }
 
 
